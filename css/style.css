@@ -1,0 +1,262 @@
+.basic {
+	width: 1366px;
+	height: 1648px;
+	background-color: white;
+	margin: 0 auto;
+}
+/*header style*/
+header {
+	width: 1366px;
+	height: 68px;
+	object-fit: contain;
+	background-color: #87b448;
+	margin: 0 auto;
+}
+.logo {
+	width: 130px;
+	height: 40px;
+	margin: -10px 0 0 204px;
+	float: left;
+}
+header input {
+	width: 435px;
+	height: 34px;
+	object-fit: contain;
+	background-color: #73993d;
+	border: none;
+	border-radius: 3px;
+	margin: 17px 0 17px 65px;
+	float: left;
+
+}
+::-webkit-input-placeholder {
+	color: #ffffff;
+	padding-left: 20px;
+}
+header img {
+	margin: 17px;
+	float: left;
+}
+header p {
+	color: #fefefe;
+	padding-top: 20px;
+}
+/*header style end*/
+/*nav*/
+nav {
+	width: 212px;
+	height: 1201px;
+	margin-left: 204px;
+	background-color: white;
+	font-size: 0;
+	display: inline-block;
+	float: left;
+
+}
+.lists {
+	width: 212px;
+	height: 50px;
+	color: #59606b;
+	border-bottom: 1px solid #e0e2e6;
+	line-height: 55px;
+	margin: 0 auto;
+	font-size: 15px;
+}
+.lists img {
+	padding-right: 20px;}
+.lists a {
+		text-decoration: none;
+		color: #7c8695;
+		font-size: 14px;
+		padding-bottom: 20px;
+	}
+.advertisement {
+		height: 366px;
+		border-bottom: 1px solid #e0e2e6;
+		line-height: 30px;	
+		font-size: 14px;
+}
+.advertisement span {
+		color: #7c8695;
+}
+.advertisement a {
+		text-decoration: none;
+		color: #d3d3d3;
+		font-size: 11px;
+}
+.featured-companies {
+		height: 326px;
+		border-bottom: 1px solid #e0e2e6;
+		line-height: 30px;	
+		font-size: 14px;
+	}
+	.featured-companies span {
+		color: #7c8695;
+		font-size: 14px;
+		float: left;
+	}
+	.featured-companies a {
+		text-decoration: none;
+		padding-left: 50px;
+		color: #1c2534;
+		font-weight: bold;
+	}
+	.company {
+		display: block;
+		float: left;
+		width: 212px;
+		height: 80px;
+		font-size: 0;
+		margin-bottom: 20px;
+	}
+	.company-photo {
+		width: 80px;
+		height: 80px;
+		border-radius: 5px;
+		background-color: #ffffff;
+		display: inline-block;
+		float: left;
+	}
+	.company img {
+		border-radius: 5px;
+	}
+	.text {
+		width: 115px;
+		height: 80px;
+		display: inline-block;
+		margin-left: 10px;
+	}
+	.text span {
+		font-size: 12px;
+		margin-top: -10px;
+
+	}
+	.text .company-name,
+	.specialists .company-name {
+		color: #1c2534;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	main .featured-companies .text a {
+		text-decoration: none;
+		color: #1c2534;
+		font-weight: bold;
+		font-size: 12px;
+
+	}
+	footer {
+		width: 212px;
+		height: 80px;
+
+	}
+	footer a {
+		text-decoration: none;
+		font-size: 10px;
+		line-height: 2.5;
+		color: #b7bfcd;
+	}
+	#pp {
+		padding-left: 20px;
+	}
+	/*nav end*/
+	/*central style*/
+	.central {
+		width: 485px;
+		height: 1446px;
+		background-color: white;
+		display: inline-block;
+		float: left;
+
+	}
+	.central h1 {
+		text-align: left;
+		color: #1c2534;
+		float: left;
+		font-size: 30px;
+		line-height: 0.2;
+		padding-left: 10px;
+	}
+	.central button {
+		width: 145px;
+		height: 30px;
+		border: none;
+		border-radius: 5px;
+		background-color: #87b448;
+		margin: 12px 0 0 90px; 
+	}
+	.central button a {
+		padding: 12px;
+		text-decoration: none;
+		color: white;
+	}
+	.service-direcory {
+		width: 475px;
+		height: 1366px;
+		border-radius: 5px;
+		border: solid 1px #e0e2e6;
+		margin-left: 5px;
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		align-content: flex-start;
+	}
+	.block-service {
+		width: 140px;
+		height: 160px;
+		margin-top: 30px;
+		text-align: center;
+
+	}
+	.serv-photo {
+		width: 140px;
+		height: 140px;
+		border: 1px solid #e0e2e6;
+		margin-bottom: 7px;
+		display: flex;
+		align-items: center;
+		align-content: center; 
+		justify-content: center;
+	}
+	.block-service a {
+		text-decoration: none;
+		font-size: 13.5px;
+		color: #1c2534;
+	}
+	.serv-photo:hover {
+		cursor: pointer;
+		background-color: #e0e2e6;
+
+	}
+	a:hover{
+		color: #71973c;
+	}
+	/*aside style/right-block*/
+	.right-block {
+		width: 217px;
+		height: 1401px;
+		display: inline-block;
+
+	}
+	.specialists {
+		height: 376px;
+		border-bottom: 1px solid #e0e2e6;
+		line-height: 30px;	
+		font-size: 14px;
+	}
+	.specialists .company {
+		margin-bottom: 0px;
+	}
+
+	.right-block .text span {
+		line-height: 20px;
+		padding-top: 10px;
+	}
+	.company .text .dentist {
+		padding-top: 10px;
+		line-height: 15px;
+	}
+	.company .product-name span{
+		line-height: 15px;
+	}
